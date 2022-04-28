@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/001b42869a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Profile-Finder</title>
+</head>
+
+<body>
+   
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" alt="logo"
+                    width="100rem">
+                <p>Profile-Finder</p>
+            </div>
+        </header>
+        <div class="search-user">
+            <form id="search-form">
+                <div class="input-feild">
+                    <input type="text" name="user" id="search" autocomplete="off"
+                        placeholder="Search github profiles here...">
+                </div>
+                <div class="search-btn">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="notFound" style="display: none;">
+            <h1>User not found</h1>
+        </div>
+        <div class="user-profile" style="display: none;">
+            <div class="profile">
+
+            </div>
+
+            <div class="user-repository">
+                <div class="repository-head">
+                    <p>Repositories</p>
+                </div>
+                <div class="repos">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

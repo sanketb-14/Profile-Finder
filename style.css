@@ -1,0 +1,189 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+   
+    background-color: aliceblue;
+    position: relative;
+  
+    display: flex;
+    justify-content:center;
+  
+    
+}
+.container{
+    width: 90%;
+    background:linear-gradient(to bottom right , rgba(241, 240, 240, 0.218) , rgba(229, 226, 226, 0.307));
+    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.248) ,-5px 5px 10px rgba(0, 0, 0, 0.248); 
+    min-height: 90vh;
+    height: auto;
+    
+    
+    
+}
+header{
+    
+    width:100%;
+    background-color: rgb(38, 36, 36);
+  
+    
+    
+    
+    
+}
+.notFound h1{
+    display: flex;
+    position: relative;
+    left:40%;
+    padding-top:8rem;
+   
+    height:100vh;
+}
+.user-pic{
+    width:80%;
+    border-radius:0.6rem
+
+}
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 1rem;
+    letter-spacing:0.3rem;
+    
+}
+.search-user{
+    width:100%;
+    background-color:rgb(226, 221, 221);
+    
+
+
+}
+form{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:1.2rem 0rem;
+    
+}
+ input{
+    outline: 0;
+    border:0;
+    border-bottom: 2px solid black;
+    padding:0.8rem 0.6rem;
+    width:50vw;
+    background-color:transparent;
+    font-size: 1.2rem;
+    color:grey;
+    opacity: 0.7;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+.search-btn button{
+    outline:none;
+    border:0;
+    background-color:rgb(38, 36, 36);
+    color:#fff ;
+    padding:0.7rem 2rem ;
+    border-radius: 0.4rem;
+    font-size: 1.4rem;
+    margin-left:2rem;
+    
+    
+
+}
+.user-profile{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+
+    
+
+    
+
+}
+@media (max-width:1000px){
+    .user-profile{flex-direction: column;}
+    .p {font-size:1.2rem ;}
+    
+}
+
+.profile{
+    width:70%
+}
+.profile p{
+    font-family: "Times New Roman", Times, serif;
+    font-size:1rem;
+    padding:0.4rem ;
+    text-transform:capitalize;
+    word-spacing:0.4rem;
+    color:rgb(40, 38, 38);
+    font-weight:600 ;
+    
+    
+}
+p .name{
+    font-size:1.6rem;font-weight:bold;
+    color:black;
+}
+p .login{
+    color:grey
+}
+.user-repository{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    width: 100%;
+}
+.repository-head p{
+    font-size:2.5rem;
+    font-weight:bold;
+    color:rgb(44, 41, 56);
+    margin-bottom: 2rem;
+
+} 
+.repos{
+    width:100%;
+    padding:0.5rem
+}
+.repo{
+    width:100%;
+    border-radius: 6px;
+    box-shadow: 2px -2px 5px rgba(0, 0, 0, 0.248) inset ,
+    -2px 2px 2px rgba(0, 0, 0, 0.248) inset; 
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.repo a{
+    font-size:1.4rem;
+    text-decoration:none;
+    color:rgb(44, 41, 56);
+    font-weight:bold;
+    letter-spacing: 0.1rem;
+    
+    padding:1rem;
+}
+.repo a:hover{
+    opacity:0.8;
+}
+
+.repodetail p{
+    margin:1rem 0rem;
+    padding:0rem 1rem;
+    font-size: 1.2rem;
+    word-spacing:1.4rem;
+    font-weight:500;
+}
