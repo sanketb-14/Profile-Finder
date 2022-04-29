@@ -16,6 +16,7 @@ by searching we get user aviator pic , username , login-id , bio , follower-list
  thank you.....feedback welcome!!! 
 
 ## Getting Started
+https://user-images.githubusercontent.com/84542785/165959568-c2e2682e-63f0-4e45-96da-016c760ad698.mp4
 
 ### Dependencies
 
